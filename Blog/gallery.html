@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Obras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Galería de Obras</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="gallery.html">Galería</a></li>
+                <li><a href="about.html">Sobre mí</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Explora mis obras</h2>
+        <div id="gallery" class="gallery-container"></div>
+    
+        <!-- Lightbox (Imagen ampliada) -->
+        <!-- Lightbox (Imagen ampliada con navegación) -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <button id="prev" class="nav-btn">&lt;</button>
+        <img id="lightbox-img" src="" alt="Obra de arte ampliada">
+        <button id="next" class="nav-btn">&gt;</button>
+    </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
